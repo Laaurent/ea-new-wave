@@ -5,3 +5,4 @@ build
 
 #nx
 .nx/workspace-data/d/
+.nx/cache/
