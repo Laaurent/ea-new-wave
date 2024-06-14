@@ -1,0 +1,157 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.0",
+  "deps": {
+    "nx": "^19.3.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "server": [
+        {
+          "file": "apps/server/.eslintrc.js",
+          "hash": "17487592752408938585"
+        },
+        {
+          "file": "apps/server/.prettierrc",
+          "hash": "5008776440579340246"
+        },
+        {
+          "file": "apps/server/README.md",
+          "hash": "15018899818891883319"
+        },
+        {
+          "file": "apps/server/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "apps/server/package.json",
+          "hash": "17069418344201108968",
+          "deps": [
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/supertest",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
+            "npm:jest",
+            "npm:prettier",
+            "npm:source-map-support",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-loader",
+            "npm:ts-node",
+            "npm:tsconfig-paths",
+            "npm:typescript",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:reflect-metadata",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/server/src/app.controller.spec.ts",
+          "hash": "3407876829745233448"
+        },
+        {
+          "file": "apps/server/src/app.controller.ts",
+          "hash": "1345450293891055440"
+        },
+        {
+          "file": "apps/server/src/app.module.ts",
+          "hash": "17810518603936339795"
+        },
+        {
+          "file": "apps/server/src/app.service.ts",
+          "hash": "15275323873054081339"
+        },
+        {
+          "file": "apps/server/src/main.ts",
+          "hash": "15065080878656798865"
+        },
+        {
+          "file": "apps/server/test/app.e2e-spec.ts",
+          "hash": "15404927841147059589"
+        },
+        {
+          "file": "apps/server/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "apps/server/tsconfig.build.json",
+          "hash": "9666801268768259513"
+        },
+        {
+          "file": "apps/server/tsconfig.json",
+          "hash": "14023072766318151652"
+        }
+      ],
+      "client": [
+        {
+          "file": "apps/client/.gitignore",
+          "hash": "7659802768140328695"
+        },
+        {
+          "file": "apps/client/README.md",
+          "hash": "11642644291932409528"
+        },
+        {
+          "file": "apps/client/app.vue",
+          "hash": "5259833556244364207"
+        },
+        {
+          "file": "apps/client/nuxt.config.ts",
+          "hash": "14665615866296749105"
+        },
+        {
+          "file": "apps/client/package.json",
+          "hash": "13225944771562062621",
+          "deps": [
+            "npm:nuxt",
+            "npm:vue",
+            "npm:vue-router"
+          ]
+        },
+        {
+          "file": "apps/client/public/favicon.ico",
+          "hash": "11254174431594941832"
+        },
+        {
+          "file": "apps/client/server/tsconfig.json",
+          "hash": "9971712086955286516"
+        },
+        {
+          "file": "apps/client/tsconfig.json",
+          "hash": "14954365934789776026"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "17449999939265954518"
+      },
+      {
+        "file": "package.json",
+        "hash": "10685117810007974463"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "16298242153311381522"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "16470824223594565590"
+      }
+    ]
+  }
+}
