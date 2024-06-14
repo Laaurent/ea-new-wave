@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server:dev": "npx nx start:dev server",
-    "client:dev": "npx nx dev client"
+    "server:dev": "npx nx dev server",
+    "client:dev": "npx nx dev client",
+    "dev" : "npx nx run-many -t dev"
   },
   "keywords": [],
   "author": "",

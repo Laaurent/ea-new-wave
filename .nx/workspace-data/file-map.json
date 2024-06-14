@@ -7,7 +7,72 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "16298242153311381522"
+      },
+      {
+        "file": "README.md",
+        "hash": "6154766638516295746"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "17449999939265954518"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9219411836293299956"
+      },
+      {
+        "file": "package.json",
+        "hash": "7964314941950776886"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "16470824223594565590"
+      }
+    ],
     "projectFileMap": {
+      "client": [
+        {
+          "file": "apps/client/.gitignore",
+          "hash": "7659802768140328695"
+        },
+        {
+          "file": "apps/client/README.md",
+          "hash": "11642644291932409528"
+        },
+        {
+          "file": "apps/client/app.vue",
+          "hash": "5259833556244364207"
+        },
+        {
+          "file": "apps/client/nuxt.config.ts",
+          "hash": "14665615866296749105"
+        },
+        {
+          "file": "apps/client/package.json",
+          "hash": "13225944771562062621",
+          "deps": [
+            "npm:nuxt",
+            "npm:vue",
+            "npm:vue-router"
+          ]
+        },
+        {
+          "file": "apps/client/public/favicon.ico",
+          "hash": "11254174431594941832"
+        },
+        {
+          "file": "apps/client/server/tsconfig.json",
+          "hash": "9971712086955286516"
+        },
+        {
+          "file": "apps/client/tsconfig.json",
+          "hash": "14954365934789776026"
+        }
+      ],
       "server": [
         {
           "file": "apps/server/.eslintrc.js",
@@ -27,7 +92,7 @@
         },
         {
           "file": "apps/server/package.json",
-          "hash": "17069418344201108968",
+          "hash": "14313525294943561366",
           "deps": [
             "npm:@nestjs/cli",
             "npm:@nestjs/schematics",
@@ -94,64 +159,7 @@
           "file": "apps/server/tsconfig.json",
           "hash": "14023072766318151652"
         }
-      ],
-      "client": [
-        {
-          "file": "apps/client/.gitignore",
-          "hash": "7659802768140328695"
-        },
-        {
-          "file": "apps/client/README.md",
-          "hash": "11642644291932409528"
-        },
-        {
-          "file": "apps/client/app.vue",
-          "hash": "5259833556244364207"
-        },
-        {
-          "file": "apps/client/nuxt.config.ts",
-          "hash": "14665615866296749105"
-        },
-        {
-          "file": "apps/client/package.json",
-          "hash": "13225944771562062621",
-          "deps": [
-            "npm:nuxt",
-            "npm:vue",
-            "npm:vue-router"
-          ]
-        },
-        {
-          "file": "apps/client/public/favicon.ico",
-          "hash": "11254174431594941832"
-        },
-        {
-          "file": "apps/client/server/tsconfig.json",
-          "hash": "9971712086955286516"
-        },
-        {
-          "file": "apps/client/tsconfig.json",
-          "hash": "14954365934789776026"
-        }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".gitignore",
-        "hash": "17449999939265954518"
-      },
-      {
-        "file": "package.json",
-        "hash": "10685117810007974463"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "16298242153311381522"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "16470824223594565590"
-      }
-    ]
+    }
   }
 }

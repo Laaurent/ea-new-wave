@@ -94,7 +94,7 @@
               "build",
               "format",
               "start",
-              "start:dev",
+              "dev",
               "start:debug",
               "start:prod",
               "lint",
@@ -140,14 +140,14 @@
             },
             "configurations": {}
           },
-          "start:dev": {
+          "dev": {
             "executor": "nx:run-script",
             "options": {
-              "script": "start:dev"
+              "script": "dev"
             },
             "metadata": {
               "scriptContent": "nest start --watch",
-              "runCommand": "pnpm run start:dev"
+              "runCommand": "pnpm run dev"
             },
             "configurations": {}
           },
